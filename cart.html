@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="FSP_logo.png">
+    <title>Faisal Spare Parts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+        <section id="header">
+            <a href="#"><img src="img/FSP_logo.png" class="logo" alt=""></a>
+            <div class="nav-search"> 
+                <select class="select">
+                    <option>All</option>
+                </select>
+                <input placeholder="Search Items" class="search-input">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div> 
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a  href="content.html">Content</a></li>
+                    <li id="bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a></li>
+                    <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+                 </ul>
+            </div>
+
+            <div id="mobile">
+                <a href="cart.html"><i class="fa-solid fa-cart-arrow-down"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
+
+        <section id="page-header"  class="about-header">
+            
+            <H2>#Let's talk</H2>
+            <h4>LEAVE A MASSAGE</h4>
+    
+        </section>
+
+        <section id="cart" class="section-p1">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Remove</td>
+                        <td>Image</td>
+                        <td>Product</td>
+                        <td>Price</td>
+                        <td>Quantity</td>
+                        <td>Subtotal</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                        <td><img src="img/img1.jpg" alt=""></td>
+                        <td>Tesla 4LB Battery </td>
+                        <td>&#8377;1250.00</td>
+                        <td><input type="number" value="1"> </td>
+                        <td>&#8377;1250.00</td>
+                    </tr>
+                    <tr> 
+                        <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                        <td><img src="img/img3.jpg" alt=""></td>
+                        <td>Chain kit </td>
+                        <td>&#8377;1600.00</td>
+                        <td><input type="number" value="1"> </td>
+                        <td>&#8377;1600.00</td>
+                    </tr>
+                    <tr> 
+                        <td><a href="#"><i class="fa-solid fa-xmark"></i></a></td>
+                        <td><img src="img/img15.jpeg" alt=""></td>
+                        <td>Activa nose </td>
+                        <td>&#8377;940.00</td>
+                        <td><input type="number" value="1"> </td>
+                        <td>&#8377;940.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section id="cart-add" class="section-p1">
+            <div id="coupon">
+                <h3>Apply Coupon</h3>
+                <div> 
+                    <input type="text" placeholder="Enter Your Coupon">
+                    <button class="normal">Apply</button>
+                </div>
+            </div>
+
+            <div id="subtotal"> 
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>&#8377; 3,790.00</td>
+                    </tr>
+                    <tr> 
+                        <td> Shipping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>TOTAL</strong></td>
+                        <td><strong>&#8377; 3,790.00</strong></td>
+                    </tr>
+                </table>
+                <button class="normal">Proceed to checkout</button>
+            </div>
+        </section>
+    
+
+
+        <footer  class="section-p1">
+            <div class="col">
+                <img src="img/FSP_logo.png" class="logo" alt="">
+                <h4>Content</h4>
+                <p><strong>Address :-</strong>Kishan Bagh Rd, Bahadurpura, Hyd (TS).</p>
+                <p><strong>Phone :-</strong>+91 95555 27777, +91 95555 27777 </p>
+                <p><strong>Hours :-</strong>10:00 - 10:00, Mon - Sat<br>10:00 - 8:00 Sun</p>
+                <div class="follow">
+                    <h4>Follow us</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <h4>About</h4>
+                <a href="">About us</a>
+                <a href="">Delivery Info</a>
+                <a href="">Privancy Policy</a>
+                <a href="">Terms & Condition</a>
+                <a href="">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a href="">Sign In</a>
+                <a href="">View Cart</a>
+                <a href="">My Wishlist</a>
+                <a href="">Track My Order</a>
+                <a href="">Help</a>
+            </div>
+
+            <div class="col install">
+                <h4>Install App</h4>
+                <p>From App Store Or Goole Play</p>
+                <div class="row">
+                    <img src="img/app.jpg" alt="">
+                    <img src="img/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay.png" alt="">
+            </div>
+
+            <div class="cr">
+                <p>© Copyright 2024 FSP, Hydarbad (T.S), All Right Reserved</p>
+                <h4>Disign & Dployed by<a href=""> Mujtaba Sayyed </a></h4>
+            </div>
+        </footer>
+
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
